@@ -1,10 +1,10 @@
-// 0.Secci髇 de documentaci髇 
+// 0.Secci贸n de documentaci贸n 
 
 // main.c
 
 // Dispositivo: PIC16F18877
 
-// Pr醕tica 1.1 
+// Pr谩ctica 1.1 
 
 // Autores: Gabriel Casarrubias Guerrero
 
@@ -24,11 +24,11 @@
 
 
 
-// 1. Secci髇 Directivas pre-proceso
+// 1. Secci贸n Directivas pre-proceso
 
-// Incluir librer韆s
+// Incluir librer铆as
 
-#include <xc.h>  //Esta es la librer韆 principal del compilador
+#include <xc.h>  //Esta es la librer铆a principal del compilador
 
 //en ella se encuentran todas las definiciones para el microcontrolador utilizado
 
@@ -44,7 +44,7 @@
 
 
 
-// 2. Secci髇 de declaraciones
+// 2. Secci贸n de declaraciones
 
 //   Variables Globales
 
@@ -60,7 +60,7 @@
 
 
 
-// 3. Secci髇 de subrutinas
+// 3. Secci贸n de subrutinas
 
 // MAIN: obligatorio para un programa en C
 
@@ -68,14 +68,14 @@ void main(void) {
 
     
 
-    //Configuraci髇 del Oscilador
+    //Configuraci贸n del Oscilador
 
     //OSCCON1bits.NOSC=0b110;
     // OSCCON1bits.NDIV=0b000;
      OSCFRQbits.HFFRQ = 0b110; // HFINT 32MHz
-     OSCCON1bits.NDIV = 0b0010; //divisor 1:2
+     OSCCON1bits.NDIV = 0b0001; //divisor 1:2
 
-    //Configuraci髇 de puertos
+    //Configuraci贸n de puertos
 
     PORTB=0;    //Limpia puerto B
 
