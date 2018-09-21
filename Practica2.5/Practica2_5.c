@@ -60,7 +60,7 @@ void main(void) {
         sprintf(buffer1, "temp= %0.2f",temp);
         Lcd_Out2(1,1,buffer1);
         __delay_ms(2);
-        Lcd_Out(1,12, "°C");
+        Lcd_Out(1,12, "Â°C");
         __delay_ms(300);
         
         ADPCH = 0b011101;  // Canal AND5
