@@ -1,5 +1,5 @@
 /*
- * File:   Practica2_6.c
+ * File:   Practica2_5.c
  * Author: pcs
  *
  * Created on 8 de septiembre de 2018, 12:31 AM
@@ -47,7 +47,7 @@ void main(void) {
     
     //Ciclo infinito
     while(1){
-        ADPCH = 0b011110;  // Canal AND5
+        ADPCH = 0b011110;  // Canal AND6
         __delay_ms(20);
         ADCON0bits.GO = 1;
         while(ADCON0bits.GO);
